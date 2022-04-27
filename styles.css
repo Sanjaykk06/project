@@ -1,0 +1,193 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    margin-top: 0;
+    box-sizing: border-box;
+    
+
+  }
+ .hero{
+   color:crimson;
+ }
+  html{
+    box-sizing: border-box;
+  }
+  .main{
+    color:#32aeb1;
+    font-weight:4em;
+    font-size: 3em;
+    padding:10px;
+    margin-left: 30%;
+  }
+  #back{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    top:auto;
+    position: relative;
+    height:100%;
+    width:100%;
+    object-fit:fill;
+    background-position: top center;
+    z-index:1;
+    color:white;
+  }
+#back::after{
+    content: '';
+    position:absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    z-index: -1;
+}
+
+  .tablink {
+    background-color: #32aeb1;
+    color: #fffff1;
+    float: left;
+    border:none;
+    margin-top:0;
+    outline: 1px;
+    cursor: pointer;
+    padding-top: 0;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  .tablink:hover {
+    background-color: #777;
+  }
+  .homeimg{
+    width:80%;
+    height: 20em;
+    margin: 3em;
+    border:#32aeb1;
+    border-width: 20px;
+   
+}
+a{
+  text-decoration:none;
+  font-style: normal;
+  color:black;
+  text-align: center;
+}
+a img{
+    height:100px;
+    width:100px;
+    padding:10px;
+}
+.col{
+    column-count: 5;
+    column-width: 200px;
+    padding:10px;
+    border:3px solid #32aeb1;
+    background-color: white;
+
+    box-sizing: border-box;
+    margin:1%;
+    text-align: center;
+}
+.col:hover{
+  box-shadow: 0px 0px 5px 0px #0000002c;;
+}
+button{
+    color:white;
+    background-color: coral;
+    font-weight:bold;
+}
+.row{
+    display:flex;
+}
+.topic{
+    margin:0;
+    padding:20px;
+    font-size: 30px;
+    font-weight: 100;
+    color:#32aeb1;
+    padding-left:10px;
+}
+.contact{
+   background-color:#32aeb1;
+}
+.heading{
+    color:white;
+    font-size:2.5em;
+    text-align:center ;
+    padding:1px;
+    padding-bottom: 0%;
+}
+.contact{
+    color:white;
+    text-align: center;
+    
+}
+.contact a{
+    text-decoration: none;
+    color:white;
+}
+.about img{
+    align-items: left;
+}
+.about{
+  background-color:rgb(12, 100, 112);
+  color:white;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 0px;
+}
+.rs{
+    font-weight: bolder;
+}
+#payment{
+  background-image: url("48.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  height:800px;
+  width:100%;
+  background-position: top center;
+  z-index:1;
+  color:white;
+}
+#payment::before{
+content: '';
+position:absolute;
+left: 0;
+top: 0; 
+height: 100%;
+width: 100%;
+background-color: black;
+opacity: .7;
+}
+.paymenthead{
+  display: block;
+  font-size: 3rem;
+  position: relative;
+  color: white;
+  text-align:center ;
+  padding:10px;
+}
+.paycontent{
+  display: block;
+  font-size: 1rem;
+  position: relative;
+  color: white;
+  text-align:left ;
+  padding-left:300px;
+}
+#total,#print1,#discountcent,#discount,#gst,#gstcent,#final{
+  padding-left:500px
+}
+.pay{
+  font-size: medium;
+  padding:5px;
+  margin:20px;
+}
+.pay:hover{
+  
+  box-shadow: 0px 0px 5px 0px #ffffff;
+}
+
+//SANJAY K 20BCE0020
